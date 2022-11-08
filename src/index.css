@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+@layer components {
+  body {
+    @apply bg-[#ECDEB9]
+  }
+
+  /* App css */
+  .main-container {
+    @apply m-auto flex min-h-screen flex-col items-center p-4 text-center;
+  }
+  .main-header {
+    @apply text-6xl font-extrabold leading-normal text-[#9D221E];
+  }
+
+  /* movie list stuff */
+  .movie-container {
+    @apply mt-3 grid gap-3 pt-3 text-center md:grid-cols-3 lg:w-2/3 
+  }
+  .movies {
+    @apply flex-1 rounded duration-500 motion-safe:hover:scale-105;
+  }
+
+  input {
+    @apply p-2 text-gray-500 text-lg font-mono font-semibold border rounded
+  }
+  ::placeholder {
+    @apply text-center text-lg text-gray-600 font-mono font-semibold
+  }
+  img {
+    @apply w-full h-[475px] sm:h-auto align-middle
+  }
+
+}
