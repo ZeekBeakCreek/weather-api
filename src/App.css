@@ -1,0 +1,53 @@
+.info {
+  position: absolute;
+  text-align: center;
+  bottom: 0;
+  width: 100%;
+  height: 45%;
+  z-index: 4;
+  font-weight: 983;
+}
+
+.location {
+  margin-top: 1.5rem;
+  text-align: center;
+  font-weight: 800;
+  font-size: 3rem;
+}
+
+.fas {
+  animation: rotates 3s linear infinite alternate;
+}
+
+#date {
+  margin-top: 00.5rem;
+  color: #57606f;
+  font-size: 1.2rem;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+.temp {
+  margin-top: 2.5rem;
+  font-size: 3rem;
+}
+
+.min_max {
+  margin-top: 0.3rem;
+  font-weight: 300;
+  font-size: 1.2rem;
+  color: #57606f;
+}
+
+#weathericon {
+  height: 58%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 17em;
+}
+
+
+
+
+  
